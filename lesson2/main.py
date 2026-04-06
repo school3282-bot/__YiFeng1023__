@@ -7,6 +7,6 @@ load_dotenv()
 client = genai.Client()
 
 response = client.models.generate_content(
-    model="gemini-3-flash-preview", contents="甚麼是墨菲定律?"
+    model="gemini-3-flash-preview", contents="今天日期?"
 )
 print(response.text)
